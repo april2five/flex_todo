@@ -43,7 +43,6 @@ header h3 {
 }
 
 
-
 /* inside .week */
 .day {
   display: inline-flex;
@@ -59,4 +58,29 @@ header h3 {
   height: 110px;
   padding: 10px;
   margin: 10px;
+}
+
+
+
+
+
+/* FLEX SECTION MORE */
+.contain2 {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #A0837E;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col img {
+  padding: 15px;
 }
